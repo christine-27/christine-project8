@@ -1,0 +1,580 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Century Gothic';
+    overflow-x: hidden;
+}
+@font-face {
+  font-family:"Fontania";
+  src: url("../css/font/Fontania.ttf") format("truetype");
+}
+@font-face {
+  font-family:"Countryside";
+  src: url("../css/font/Countryside.ttf") format("truetype");
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 80px;
+    font-family: 'Fontania';
+}
+header {
+    background: url(../img/seafoodbg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+.logo {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 20px 10px;
+}
+header .navigation #navi ul {
+      display: block;
+      text-align: center;
+      justify-content: center;
+      padding: 0; 
+    }
+.navigation {
+    padding-top: 21px;
+}
+.nav-toggle{
+    display: none;
+}
+.menu {
+    float: right;
+    margin: 50px 0;
+}
+header ul li {
+    display: inline;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 15px;
+}
+.headerHead {
+    width: 50%;
+    margin: 0 auto;
+}
+.active {
+    color: #ff8984;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.headerTitle {
+  align-items: center;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.headerTitle h1 {
+    font-family: 'Fontania';
+    font-size: 7vw;
+    color: #fff;
+    text-align: center;
+}
+
+/*who we are section*/
+.whoweareCon {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#whoweare {
+    padding: 100px 0;
+}
+.whoweareRight {
+    padding-right: 20px;
+}
+
+.whoweareCon p {
+    font-size: 24px;
+    line-height: 1.6;
+    color: #282828;
+    padding-bottom: 30px;
+}
+
+a.readmore {
+    font-size: 30px;
+    color: #282828;
+    text-decoration: none;
+    font-family: Countryside;
+}
+
+img.seafood {
+    width: 100%;
+    height: auto;
+}
+.whoweare {
+    width: calc(100% / 2);
+}
+/* menuoftheday section*/
+.menuRight {
+    background-color: #ed552b;
+}
+.menuContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img.menuDish {
+    display: none;
+    width: auto;
+    height: 100%;
+    box-sizing: border-box;
+}
+.menuRight h2 {
+    color: #fff;
+}
+.menuRight {
+    background-color: #ed552b;
+    padding: 80px 0;
+}
+.imgImg {
+    background: url(../img/menuoftheday.jpg);
+    height: 100%;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#menuoftheday p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.6;
+}
+#menuoftheday h5 {
+    font-size: 24px;
+    color: #fff;
+}
+
+#menuoftheday {
+    text-align: center;
+}
+.wedoContent {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+}
+.menuList {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.lists {
+    padding: 14px;
+}
+.col-menu {
+    width: calc(100% /2);
+}
+/*Special Menu section*/
+#specialmenu {
+    padding: 100px 0;
+}
+#specialmenu h2 {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.specialList {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    text-align: center;
+    flex-flow: wrap;
+}
+img.specialImg {
+    width: 100%;
+    height: auto;
+}
+#specialmenu h5 {
+    font-family: 'Fontania';
+    font-size: 50px;
+}
+.specialDish {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 20px;
+    padding: 50px;
+    width: calc(100% / 5);
+}
+p.price {
+    color: #a43434;
+    font-size: 30px;
+    font-weight: bolder;
+}
+img.discoverImg {
+    width: 100%;
+    height: auto;
+}
+/*fresh tasty*/
+.freshtasyCon {
+    width: 50%;
+    text-align: center;
+}
+#freshtasy {
+    color: #fff;
+}
+#freshtasy {
+    background: url(../img/freshbg.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding: 150px 0;
+}
+#freshtasy p {
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+a.ordernow {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+     font-family: Countryside;
+}
+/*discover*/
+section#discover {
+    padding: 100px 0;
+    text-align: center;
+}
+.discoverList {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#discover h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.discoverCon {
+    width: calc(70% / 3);
+    padding: 15px;
+}
+
+a.viewmore {
+    font-size: 30px;
+    color: #282828;
+    text-decoration: none;
+    font-family: Countryside;
+}
+
+/*bookyou*/
+.bookLeft {
+    background: #ed553b;
+}
+.book {
+    width: calc(100% / 2);
+}
+img.menuDish1 {
+    width: auto;
+    height: 100%;
+    box-sizing: border-box;
+}
+#bookyourtable h2 {
+    color: #fff;
+    text-align: center;
+}
+.imgImg1 {
+    background: url(../img/shrimpbg.jpg);
+    height: 100%;
+    width: auto;
+    background-size: cover;
+}
+
+form {
+    text-align: right;
+    padding: 90px 20px;
+}
+input[type=text] {
+    background-color: #fff;
+    color: white;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 10px 9px;
+    width: 42%;
+    margin: 5px;
+    outline: none;
+}
+textarea {
+    background-color: #fff;
+    width: 95%;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    padding: 0 5px;
+    border-radius: 15px;
+ }
+.bookCon {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.bookLeft {
+    background: #ed553b;
+}
+input.email {
+    width: 93%;
+}
+#contact-submit {
+    background-color: #204e5f;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: #fff;
+}
+footer {
+    background: #464646;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/*media query*/
+@media (max-width: 767px) {
+.logo {
+    padding: 10px;
+}
+.headerHead {
+    width: 100%;
+}
+.headerTitle h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+.whoweareCon {
+    display: block;
+}
+img.seafood {
+    width: 100%;
+    height: auto;
+}
+.wedoContent {
+    display: block;
+}
+img.specialImg {
+    width: 100%;
+    height: auto;
+}
+img.menuDish {
+    display: block;
+}
+.specialDish {
+    margin: 20px 0;
+    width: 100%;
+}
+.freshtasyCon {
+    width: 100%;
+}
+.bookCon {
+    display: block;
+}
+.discoverCon {
+    width: 100%;
+}
+.bookLeft { 
+    width: 100%;
+    padding: 50px 0;
+    height: 100%;
+}
+input[type=text] {
+    width: 93%;
+}
+img.discoverImg {
+    width: 100%;
+    height: auto;
+}
+#freshtasy {
+    padding: 50px 0;
+}
+ #whoweare h2 {
+    text-align: center;
+}
+.whoweareRight {
+    padding: 0 22px;
+}
+.whoweareCon p {
+    text-align: justify;
+}
+.wedoContent {
+    padding: 50px 0;
+}
+.menuList {
+    display: block;
+}
+.nav-toggle{
+     display: block;
+    float: right;
+    top: 33px;
+    position: relative;
+    padding: 10px;
+    border: none;
+    background: #ffd00f;
+    color: #ed552b;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+}
+.menu {
+    float: right;
+    width: 100%;
+    display: none;
+    position: relative;
+}
+
+.nav-toggle .menu {
+    display: block;
+}
+header ul li {
+    display: block;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+.navMenu {
+    position: absolute;
+    top: 87px;
+    background-color: #000000d4;
+    z-index: 999;
+    width: 90%;
+}
+.activeLi {
+    color: #ff9258;
+    border-left: none;
+    border-right: none;
+}
+header .navigation #navi ul {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 0; 
+}
+.menu-active {
+    display: block;
+}
+.js .menu {
+    overflow: hidden;
+    max-height: 0; }
+.js .menu-active {
+
+    max-height: 100%;
+}
+.break {
+    display: none;
+}
+.book {
+    width: 100%;
+}
+form {
+    text-align: right;
+    padding: 20px;
+}
+.col-menu {
+    width: 100%;
+    }
+.whoweare {
+    width: 100%;
+}
+#specialmenu h5 {
+    font-size: 30px;
+    }
+a.readmore {
+    font-size: 25px;
+    }
+a.viewmore {
+     font-size: 25px;
+    }
+img.menuDish {
+    width: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.headerHead {
+    width: 100%;
+}
+.headerTitle {
+    height: 74vh;
+}
+h2 {
+    font-size: 40px;
+}
+img.seafood {
+    width: 100%;
+    height: auto;
+}
+.menuList {
+    display: block;
+}
+.specialDish {
+    width: calc(89% / 3);
+    margin: 20px;
+}
+img.specialImg {
+    width: 100%;
+    height: auto;
+}
+.freshtasyCon {
+    width: 100%;
+}
+input[type=text] {
+    width: 92%;
+}
+input.email {
+    width: 92%;
+}
+img.discoverImg {
+    width: 100%;
+    height: auto;
+}
+#freshtasy {
+    padding: 50px 0;
+}
+#whoweare h2 {
+    text-align: center;
+}
+.whoweareRight {
+    padding: 0 22px;
+}
+.whoweareCon p {
+    text-align: justify;
+}
+.whoweare {
+    width: 100%;
+}
+.wedoContent {
+    padding: 50px 0;
+}
+.headerTitle h1 {
+    font-size: 93px;
+}
+.discoverCon {
+    width: calc(90% / 3);
+    padding: 15px;
+}}
+
