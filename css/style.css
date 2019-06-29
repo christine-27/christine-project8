@@ -380,7 +380,7 @@ img.specialImg {
     height: auto;
 }
 img.menuDish {
-    display: block;
+    display: none;
 }
 .specialDish {
     margin: 20px 0;
@@ -428,7 +428,7 @@ img.discoverImg {
 .nav-toggle{
      display: block;
     float: right;
-    top: 33px;
+    top: 35px;
     position: relative;
     padding: 10px;
     border: none;
